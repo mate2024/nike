@@ -1,0 +1,299 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+/*********************HEADER**********************/
+
+.top__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 48px;
+    background-color: #F5F5F5FF;
+    position: relative;
+}
+.top__inner-logo {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+
+}
+.top__inner-logo img {
+    width: 24px;
+    height: 24px;
+}
+.top__menu {
+    display: flex;
+    gap: 13.969px;
+}
+.top__menu-list-item {
+    padding: 8px 5.156px 8px 12px;
+    list-style-type: none;
+}
+.top__menu-list-link {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.menu {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+} 
+.top-nike__logo {
+   position: absolute; 
+}
+.menu__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 10px 140px 10px 320px;
+}
+.menu__list-item {
+    margin-left: 40px;
+    list-style-type: none;
+}
+.menu__list-link {
+    text-decoration: none;
+    text-align: center;
+    
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-inner__input {
+    width: 180px;
+    height: 40px;
+    border-radius: 100px;
+    border-width: 1px;
+    padding: 0 10px;
+}
+.menu__logos {
+    margin-right: 44px;
+    padding: 18px 6px;
+}
+.menu__logo-heart {
+    margin-right: 12px;
+}
+/**************************Your account**************/
+
+.your-account {
+    display: flex;
+    justify-content: center;
+    
+}
+.your-account__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 380px;
+    width: 100%;
+    text-align: center;
+    padding: 28px;
+}
+.your-account__logo {
+    height: 17px;
+}
+.your-account__logo-img {
+}
+.your-account__title {
+     max-width: 187px;
+     padding: 29px 0 25px;
+}
+.your-account__title-item {
+    color: #111;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+.your-account__email {
+    padding: 12px 17px;
+    width: 100%;
+}
+.your-account_password {
+    padding: 12px 17px;
+    width: 100%;
+    margin-top: 13px;
+}
+.your-account__chekbox {
+    display: flex;
+    align-items: center;
+    color: #BCBCBC;
+    text-align: right;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 23px 0;
+}
+#keep-me-signed-in {
+    margin-right: 14px;
+}
+.your-account__chekbox-forgotten-password {
+    margin-left: 51px;
+    color: #BCBCBC;
+    text-align: right;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.your-account__privacy {
+    color: #8D8D8D;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+
+    padding: 4px 23px 25px;
+}
+.your-account__privacy-link {
+    color: #8D8D8D;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration-line: underline;
+}
+.your-account__privacy-terms-of-use {
+    color: #8D8D8D;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration-line: underline;
+}
+.your-account__sign {
+    
+}
+.your-account__sign-button {
+    padding: 11px 140px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    background: #000;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration: none;
+}
+.your-account__sign-button:hover {
+    background-color: #FFF;
+    color: #111;
+    transition: all 0.4s;
+
+}
+.your-account__join {
+    margin-top: 10px;
+    padding: 10px 0;
+    text-align: center;
+    color: #8D8D8D;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+/***************FOOTER***************/
+.footer {
+    background-color: #111;
+    padding: 40px 34px 0px 34px;
+}
+.footer__inner {
+    
+    
+    display: flex;
+    
+}
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 760px;
+}
+
+.footer__nav-col {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+}
+
+.footer__nav-title {
+    color: #FFF;
+    font-family: Helvetica Neue;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.footer__nav-link {
+    color: #7E7E7E;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+}
+.footer__nav-social-media {
+    display: flex;
+    height: 37px;
+    padding: 0px 0px 7px 169px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 16px;
+    margin-left: 322px;
+}
+.footer__social-link {
+    text-decoration: none;
+}
+.footer__inner-copy {
+    display: flex;
+    margin-top: 16px;
+    gap: 10px;
+    align-items: center;
+    padding: 0 0 10px;
+    
+}
+.footer__copy-logo  {
+    color: #FFF;
+}
+.footer__copy-adres {
+    color: #FFF;
+    
+}
+.footer__copy-text {
+    color: #7E7E7E;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
